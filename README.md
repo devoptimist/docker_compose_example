@@ -28,10 +28,13 @@ A simple Docker Compose example using an nginx proxy and express.js web app
 |web/package.js| The node js packaging information| 
 
 ## Build Instructions
-`cd proxy && docker build . --rm --tag proxy`
-`cd web && docker build . --rm --tag web`
+```
+cd proxy && docker build . --rm --tag proxy
+cd web && docker build . --rm --tag web
+```
 then to run, from the root directory of the repo
-`docker-compose up -d`
+```docker-compose up -d```
+
 ## Flow Diagram
 
 
