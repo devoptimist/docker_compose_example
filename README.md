@@ -5,7 +5,7 @@ A simple Docker Compose example using an nginx proxy and express.js web app
 ## Image Build Args
 
 |  Image| Argument |Description | Default|
-|----------------|-------------------------------|
+|----------------|-------|-------------|-----------|
 |proxy |hname|host name to use for the self signed cert and nginx server name|www.example.com|
 |proxy |url_token| Used to set the path to our content |secret|
 |proxy |auth_user | The name of the user to use in http basic auth| user|
