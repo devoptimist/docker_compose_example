@@ -44,3 +44,10 @@ A[User] -- port 80 / Redirect--> B((Proxy))
 A-- 443 / TLS --> B
 B -- port 8000 --> D((Web App))
 ```
+
+## Acknowledgements
+Express.js code adapted from https://github.com/tobilg/docker-mini-webserver.git
+```
+web/server.js
+web/package.js
+```

@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobilg/docker-mini-webserver.git"
+    "url": "https://github.com/devoptimist/docker_compose_example"
   },
   "keywords": [
     "mini",
@@ -22,9 +22,9 @@
   "author": "tobilg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tobilg/docker-mini-webserver/issues"
+    "url": "https://github.com/devoptimist/docker_compose_example/issues"
   },
-  "homepage": "https://github.com/tobilg/docker-mini-webserver",
+  "homepage": "https://github.com/devoptimist/docker_compose_example",
   "dependencies": {
     "express": "^4.15.3",
     "morgan": "^1.2.2"
