@@ -11,7 +11,7 @@ A simple Docker Compose example using an nginx proxy and express.js web app
 |proxy |auth_user | The name of the user to use in http basic auth| user|
 |proxy |auth_pass | The password to use for the above user in http basic auth|password|
 |proxy |web_app_port| The port to connect to the backend web app on|8000|
-|web|web_app_port| The prot to run the web app on|8000|
+|web|web_app_port| The port to run the web app on|8000|
 |web|url_token| Used to set the path to our contnet|secret|
 
 ## File and Directory Overview
